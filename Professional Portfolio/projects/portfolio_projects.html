@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Roberto Galipo | Project Portfolio </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #656565;
+            background-color: #010713;
+            background-color: #020816;
+            background-color: #010612;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #071027;
+            background-color: #06194a;
+            color: white;
+            padding: 20px 10%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .banner {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        .heading {
+            text-align: center;
+            padding: 20px 10%;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            background-color: #06194a;
+        }
+
+        .sub-heading{
+            padding: 10px 10%;
+            margin: 5px;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 0.25fr));
+            gap: 25px;
+        }
+
+        .project-box{
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px white;
+            transition: transform 0.2s;
+        }
+
+        .project-box img{
+            text-align: center;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-box a img{
+            height: auto;
+            width: 100px;
+        }
+
+    </style>
+</head>
+
+<body> 
+    <header>
+        <nav>
+            <div class = "banner"> Portfolio | Roberto Galipo </div>
+
+            <ul>
+                <li><a href="../index.html"> About </a></li>
+                <li><a href="portfolio_projects.html"> Projects </a></li>
+                
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section class = "heading">
+        <h1> Projects </h1>
+    </section>
+
+    <section class = "sub-heading">
+        <h2> Robotics & Embedded Systems Projects </h2>
+        <section class = "grid">
+            <section class = "project-box">
+                <h3> Remote Controlled Car </h3>
+                <p> Arduino based RC car programmed using C++. The robot is powered by 4x AA batteries, and uses an IR sensor module alongside a remote to be able to control movement of the 4x 5V DC motors. </p>
+                <img src = "rc_car.jpg">
+            </section>
+
+            <section class = "project-box">
+                <h3> Autonomous Line Follower Robot </h3>
+                <p> Lead programmer and pseudocode designer for a group engineering project, where we were tasked to program an mbot to follow various unseen line paths. </p>
+                <img src = "mbot.jpg"></img>
+            </section>
+
+        </section>
+    </section>
+
+   
+
+    <section class = "sub-heading">
+        <h2> Software Engineering & Game Design Projects </h2>
+            <section class = "grid">
+                <section class = "project-box">
+                    <h3> The Flames of Fusion </h3>
+                    <p> A text-based RPG showcasing object oriented programming for enemies, abilities, and map locations. </p>
+                    <img src = "the_flames_of_fusion.png">
+                    <a href="https://github.com/RobertoG2310/Python-RPG-Project---The-Flames-of-Fusion">
+                        <img src = ../images/github_logo.png alt = "Github Link">
+                    </a>
+                </section>
+
+                <section class = "project-box">
+                    <h3> Sacrifice to Survive </h3>
+                    <p> A 2D unity game programmed using C#. The game is a survivors-like where you must make sacrifices throughout your playthrough to gain new powers and survive hordes of enemies. </p>
+                    <img src = "sacrifice_to_survive.png">
+                </section>
+
+                <section class = "project-box">
+                    <h3> Beach Environment Tech Demo </h3>
+                    <p> A simple 3D Unity game used to test rendering, terrain generation, and 3D Vector movement of both a player and third person camera objects. </p>
+                    <img src = "beach_tech_demo.png">
+                </section>
+
+
+
+            </section>
+    </section>
+    
+</body>
