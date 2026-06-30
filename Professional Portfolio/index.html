@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Roberto Galipo | Project Portfolio </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #656565;
+            background-color: #010713;
+            background-color: #020816;
+            background-color: #010612;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #071027;
+            background-color: #06194a;
+            color: white;
+            padding: 20px 10%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .banner {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        .heading {
+            text-align: center;
+            padding: 20px 10%;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            background-color: #06194a;
+        }
+
+        .main-text{
+            font-size: 1.5rem;
+            padding: 20px 10%;
+            margin: 5px
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: flex-start; /* Vertically centers the text and image */
+            gap: 50px;           /* Adds a clean space between text and image */
+            padding: 20px 10%;
+            margin: 20px
+        }
+
+        .flex-container p{
+            font-size: 1.5rem;
+        }
+
+        .flex-container img{
+            height: auto;
+            max-width: 80%;
+            display:block;
+        }
+
+        .flex-container a img{
+            height:auto;
+            width: 250px;
+            display: block;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class = "banner"> Portfolio | Roberto Galipo</div>
+
+            <ul>
+                <li><a href="index.html"> About </a></li>
+                <li><a href="./projects/portfolio_projects.html"> Projects </a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section class = "heading">
+        <h1> About Me </h1>
+    </section>
+
+    <section class = "flex-container">
+        <p>
+            Motivated, hard-working, and enthusiastic undergraduate who is currently pursuing a Bachelor of Engineering (Software Engineering) at the University of Western Australia. 
+            I am open to learning and taking on challenges, as showcased by my enjoyment for math and physics, and my various projects both in and outside of university.
+            I have strong engineering practical skills and ability to program in software, games, websites and robotics. 
+            Additionally, I also have a strong interest in statistics and financial markets, which has aided me in making informative and logical decisions.
+        </p>
+
+        <img src = "./images/business.png">
+
+    </section>
+
+    <section class = "heading">
+        <h1> Profiles </h1>
+    </section>
+
+    <section class = "flex-container">
+        <a href="https://www.linkedin.com/in/roberto-galipo-56370439a/">
+            <img src = ./images/linkedin_logo.png alt = "Linkedin">
+        </a>
+
+        <a href="https://github.com/RobertoG2310">
+            <img src = ./images/github_logo.png width = "300" alt = "Github">
+        </a>
+    </section>
+    
+</body>
